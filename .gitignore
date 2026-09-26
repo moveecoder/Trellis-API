@@ -66,15 +66,11 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
 !.env.example
 !.env.production.example
 !.env.secrets.template
 
 # Security - NEVER commit these
-.env.production
-.env.local
 .env.secrets
 secrets/
 *.pem
@@ -163,3 +159,7 @@ client/
 # OpenAPI Generator CLI cache
 .openapi-generator/
 openapitools.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
